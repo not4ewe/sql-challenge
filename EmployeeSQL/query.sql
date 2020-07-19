@@ -62,7 +62,9 @@ SELECT Employee.emp_no,Employee.last_name, Employee.first_name
 FROM Employee
 WHERE Employee.emp_no = 499942;
 
-
+_________________________________________________
+necessary addjustments for importing into Pandas
+_________________________________________________
 ALTER TABLE "Departments"
   RENAME TO Departments;
 ALTER TABLE "Dept_Emp"
